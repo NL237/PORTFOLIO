@@ -1,0 +1,11 @@
+1. Page de portfolio personnel
+Objectif :
+-Créez une page pour afficher vos compétences, projets et informations de contact.
+Fonctionnalités :
+-Une section "À propos de moi".
+-Une liste de projets avec des liens et des images.
+-Un formulaire de contact fonctionnel (optionnel).
+Technologies suggérées :
+-HTML/CSS pour le design.
+-JavaScript pour des animations simples (comme un menu interactif).
+-Bootstrap
