@@ -1,7 +1,87 @@
-img{
-    width: 90%;
-    height: 500px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-body{
-    
+#global{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#presentation{
+    display: flex;
+    justify-content: space-around;
+}
+#presentation .intro{
+    margin-left: 2rem;
+}
+#presentation .intro h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+#presentation .intro h2{
+    font-size: 2.2em;
+}
+
+
+.photo img{
+    width: 100%;
+    height: 400px;
+}
+.photo{
+    position: relative;
+}
+.photo .logos-photo{
+    position: absolute;
+}
+
+.partproj h1{
+    font-size: 3rem;
+}
+.partproj .pro{
+    margin-bottom: 2rem;
+}
+.partproj .pro img{
+    width: 100%;
+    height: 400px;
+}   
+.partproj h3{
+    font-size: 2rem;
+}
+.partproj h4{
+    font-size: 1.2rem;
+}
+
+.contact{
+    background-color: rgb(76, 76, 76);
+}
+.contact .bottompart{
+    border-top: 1px solid rgb(188, 185, 185);
+}
+.contact .bottompart ion-icon{
+    font-size: 1.6rem;
+    margin-right: 1rem;
+}
+.contact .form input{
+    background-color: rgb(76, 76, 76);
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;   
+}       
+.contact .form textarea{
+    background-color: rgb(76, 76, 76);
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 0;   
+}
+.contact .form button{
+    background-color: rgb(76, 76, 76);
+    border: 1px solid white;
+    border: none;
+    border-bottom: 2px solid rgb(43, 217, 60);
+    border-radius: 0;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 1rem;
 }
